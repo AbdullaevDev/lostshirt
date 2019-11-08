@@ -18,7 +18,7 @@ public class FirstTest {
         driver.get("https://market.yandex.ru/catalog--lakomstva-dlia-koshek/62819/list?hid=15963668");
         driver.findElement(By.xpath("//*[@id=\"glpricefrom\"]")).sendKeys("50");
         driver.findElement(By.xpath("//*[@id=\"glpriceto\"]")).sendKeys("150");
-      //  driver.findElement(By.cssSelector("#search-prepack > div > div > div:nth-child(3) > div > div > div._178jz2CyDL > div:nth-child(14) > div > div > fieldset > ul > li:nth-child(1) > div > label > div > span")).click();
+        //driver.findElement(By.cssSelector("#search-prepack > div > div > div:nth-child(3) > div > div > div._178jz2CyDL > div:nth-child(14) > div > div > fieldset > ul > li:nth-child(1) > div > label > div > span")).click();
         driver.findElement(By.cssSelector("#search-prepack > div > div > div:nth-child(3) > div > div > div._178jz2CyDL > div:nth-child(3) > div > div > fieldset > ul > li:nth-child(1) > div > a > label > div > span")).click();
         driver.get("https://market.yandex.ru/product--lakomstvo-dlia-koshek-beaphar-happy-rolls-mix/218886032?show-uid=15731305547635440942516001&nid=62819&glfilter=7893318%3A10714501&offer-shipping=delivery&pricefrom=50&priceto=150&context=search");
         driver.findElement(By.cssSelector("body > div.main > div.n-product-summary.b-zone.i-bem.n-product-summary_js_inited.b-zone_js_inited > div.n-product-summary__header > div > div > div > div.n-product-title-features__toolbar > div > div")).click();
@@ -31,7 +31,7 @@ public class FirstTest {
         driver.findElement(By.cssSelector("body > div.main > div.n-product-summary.b-zone.i-bem.n-product-summary_js_inited.b-zone_js_inited > div.n-product-summary__header > div > div > div > div.n-product-title-features__toolbar > div > div")).click();
         driver.get("https://market.yandex.ru/compare?track=head");
         driver.findElement(By.cssSelector("body > div.main > div.n-compare.n-compare-draggable.i-bem.n-compare_type_diff.n-compare-draggable_js_inited.n-compare_js_inited > div.layout.layout_type_maya.layout_context_compare > div.n-compare-toolbar.i-bem.n-compare-toolbar_js_inited > div.n-compare-toolbar__action > span > span")).click();
-        //  driver.quit();
+        driver.quit();
 
     }
 
